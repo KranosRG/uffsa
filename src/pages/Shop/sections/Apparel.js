@@ -74,22 +74,22 @@ const Apparel = () => {
         <div className="apparel-item">
           <img src={DTJShFront} alt="DTJ Shirt Front" className="dtj-apparel-cover"
            onMouseEnter={dtjShHoverEnter} onMouseLeave={dtjShHoverLeave}/>
-           <div className="order-button">
+           <Link className="order-button" to="/order?apparel=dtjshirt">
             Order
-          </div>
+          </Link>
         </div>
         <div className="apparel-item">
           <img src={DTJCrFront} alt="DTJ Crewneck Front" className="dtj-apparel-cover"
            onMouseEnter={dtjCrHoverEnter} onMouseLeave={dtjCrHoverLeave}/>
-           <div className="order-button">
+           <Link className="order-button" to="/order?apparel=dtjcrew">
             Order
-          </div>
+          </Link>
         </div>
         <div className="apparel-item">
           <img src={DTJSweats} alt="DTJ Sweatpants" className="dtj-apparel-cover"/>
-          <div className="order-button">
+          <Link className="order-button" to="/order?apparel=dtjsweats">
             Order
-          </div>
+          </Link>
         </div>
       </div>
 

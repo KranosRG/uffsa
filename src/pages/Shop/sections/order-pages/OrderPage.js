@@ -19,6 +19,24 @@ const apparelData = {
         price: 22.00,
         imgFront: SP25HoodieFront,
         imgBack: SP25HoodieBack
+    },
+       'dtjshirt' : {
+        name: 'DTJ Shirt',
+        price: 15.00,
+        imgFront: DTJShirtFront,
+        imgBack: DTJShirtBack
+    },
+       'dtjcrew' : {
+        name: 'DTJ Crewneck',
+        price: 22.00,
+        imgFront: DTJCrewFront,
+        imgBack: DTJCrewBack
+    },
+       'dtjsweats' : {
+        name: 'DTJ Sweatpants',
+        price: 35.00,
+        imgFront: DTJSweats,
+        imgBack: DTJSweats
     }
 };
 
